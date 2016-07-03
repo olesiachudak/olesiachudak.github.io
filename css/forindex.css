@@ -4,7 +4,7 @@
     margin:0;
 }
 body{
-    background:fixed url(../img/indexbg.jpg) 70% top no-repeat #090909;
+    background:fixed url(../img/indexbg.jpg) 70% top no-repeat #000;
 	background-size:101.5%;
     -moz-background-size:101.5%;
     -o-background-size:100%;
