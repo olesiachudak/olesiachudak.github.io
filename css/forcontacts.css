@@ -8,7 +8,6 @@ main{
     background:url(../img/forcont.jpg) top center no-repeat;
     background-size:101.5%;
     -moz-background-size:101.5%;
-    -webkit-background-size:101.5%;
     -o-background-size:100%; 
     position:relative;
     min-height:auto;
