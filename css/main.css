@@ -307,7 +307,7 @@ a{
 }
 @media screen and (max-width:600px)
 {
-	nav li:not(:first-child){
+	nav li:not(:first-child), nav li:not(last-child){
 		display:none;
 	}
 }
