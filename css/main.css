@@ -307,7 +307,7 @@ a{
 }
 @media screen and (max-width:600px)
 {
-	nav{
+	nav:not(:first-child){
 		display:none;
 	}
 }
