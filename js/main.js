@@ -1,6 +1,6 @@
 $(document).ready(function () {
     "use strict";
-    var $article = $('main #gallery'),
+    var $article = $('#gallery'),
         $img = $article.find('img'),
         $lightbox = $('#lightbox'),
         $lightImg = $lightbox.find('img'),
@@ -31,8 +31,8 @@ $(document).ready(function () {
         
         $lightImg.attr('src', imgLink);
         
-//        $lightbox = $('#lightbox');
-        // fullSize = $lightImg;
+        $lightbox = $('#lightbox');
+        fullSize = $lightImg;
         $lightbox.fadeIn(500);
         
 //        Отбор размеров изображения для выравнивания
