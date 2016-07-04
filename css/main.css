@@ -312,6 +312,7 @@ a{
 	}
 	nav li:first-child, nav li:last-child{
 		display:block;
+		margin:10px 0;
 	}
 }
 @media screen and (max-width:480px)
