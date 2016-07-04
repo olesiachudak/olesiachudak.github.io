@@ -170,10 +170,6 @@ main{
 #gallery img{
     width:100%;
     margin-bottom:.5em;
-    user-select:none;
-    -moz-user-select:none;
-    -webkit-user-select:none;
-    -ms-user-select:none;
 }
 
 /* ==========================================================================
@@ -211,10 +207,6 @@ footer p,footer h3,footer a{
 }
 
 #lightbox img{
-    user-select:none;
-    -moz-user-select:none;
-    -webkit-user-select:none;
-    -ms-user-select:none;
 	display:block;
 	margin:2.5% auto;
     max-width:95%;
@@ -232,10 +224,6 @@ a{
     right:1em;
     top:50%;
     margin-top:-78px;
-    user-select:none;
-    -moz-user-select:none;
-    -webkit-user-select:none;
-    -ms-user-select:none;
 }
 
 .fa-chevron-up{
