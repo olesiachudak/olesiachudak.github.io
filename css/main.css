@@ -156,7 +156,7 @@ header a,footer h3{
 main{
     position:relative;
     padding:.5em;
-    height: 60em;
+    min-height: 60em;
     margin:0 auto;
     overflow:hidden;
 }
