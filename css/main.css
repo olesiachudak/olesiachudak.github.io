@@ -307,8 +307,11 @@ a{
 }
 @media screen and (max-width:600px)
 {
-	nav:not(:first-child){
+	nav{
 		display:none;
+	}
+	nav:first-child{
+		display:block;
 	}
 }
 @media screen and (max-width:480px)
