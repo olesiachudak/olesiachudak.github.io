@@ -318,8 +318,11 @@ a{
     #gallery img{
         margin-bottom:.25em;
     }
-    nav:not(:last-child){
+    nav{
     	display:none;
+    }
+    nav:first-child, nav:last-child{
+    	display:block;
     }
     #socnet{
         margin-bottom:10px;
