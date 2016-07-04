@@ -307,8 +307,11 @@ a{
 }
 @media screen and (max-width:600px)
 {
-	nav li:not(:first-child), nav li:not(:last-child){
+	nav li{
 		display:none;
+	}
+	nav li:first-child, nav li:last-child{
+		display:block;
 	}
 }
 @media screen and (max-width:480px)
