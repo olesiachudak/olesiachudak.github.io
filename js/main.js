@@ -11,7 +11,7 @@ $(document).ready(function () {
         counter = 1,
         imgId,
         catPosts = $img.size();
-        
+    $('#loader').fadeIn()
     function getID(massclass, $img) {
         $img.each(function () {
             $(this).attr('id', massclass + counter);
