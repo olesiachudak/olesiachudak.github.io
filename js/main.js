@@ -1,6 +1,6 @@
 $(document).ready(function () {
     "use strict";
-    var $article = $('article'),
+    var $article = $('main #gallery'),
         $img = $article.find('img'),
         $lightbox = $('#lightbox'),
         $lightImg = $lightbox.find('img'),
@@ -36,18 +36,17 @@ $(document).ready(function () {
         $lightbox.fadeIn(500);
         
 //        Отбор размеров изображения для выравнивания
-        // marginTop = fullSize.height();
-        // marginTop = marginTop / 2 * (-1);
-        // marginLeft = fullSize.width();
-        // marginLeft = marginLeft / 2 * (-1);
-        // fullSize.css({
-            // 'margin-top':  marginTop,
-            // 'margin-left': marginLeft,
-            // 'position' : 'absolute',
-            // 'top' : '50%',
-            // 'left' : '50%'
-
-        // });
+        marginTop = fullSize.height();
+        marginTop = marginTop / 2 * (-1);
+        marginLeft = fullSize.width();
+        marginLeft = marginLeft / 2 * (-1);
+        fullSize.css({
+            'margin-top':  marginTop,
+            'margin-left': marginLeft,
+            'position' : 'absolute',
+            'top' : '50%',
+            'left' : '50%'
+        });
         
     }
     $img.click(function () {
