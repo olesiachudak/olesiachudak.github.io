@@ -11,7 +11,7 @@ $(document).ready(function () {
         counter = 1,
         imgId,
         catPosts = $img.size();
-        $('main').css({'height':'60em'});
+        $('main').css({'height':'60em','overflow':'hidden'});
     function getID(massclass, $img) {
         $img.each(function () {
             $(this).attr('id', massclass + counter);
