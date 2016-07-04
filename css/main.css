@@ -318,7 +318,7 @@ a{
     #gallery img{
         margin-bottom:.25em;
     }
-    nav:not(:last-child):not(:first-child){
+    nav:not(:last-child){
     	display:none;
     }
     #socnet{
