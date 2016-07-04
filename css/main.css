@@ -139,6 +139,7 @@ header a,footer h3{
    CONTENT
    ========================================================================== */
 #loader{
+	display:none;
     position:absolute;
     top:0;
     left:0;
