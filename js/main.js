@@ -12,8 +12,6 @@ $(document).ready(function () {
         imgId,
         catPosts = $img.size();
         
-    $('#loader').css({'display':'block'});
-    
     function getID(massclass, $img) {
         $img.each(function () {
             $(this).attr('id', massclass + counter);
