@@ -30,12 +30,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script>
-            if(window.screen.width > 600) {
-            	$('#loader').css({'display':'block'});
-            	document.write('<script src="js/main.js"><\/script>');
-            }
-        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -67,6 +61,12 @@
 				<p>LOADING...</p>
                 <noscript>Для отображения контента включите JavaScript</noscript>
 			</div>
+			        <script>
+            				if(window.screen.width > 600) {
+            					$('#loader').css({'display':'block'});
+            					document.write('<script src="js/main.js"><\/script>');
+        				}	
+        			</script>
 				<div id="gallery">
 					<img alt="девушка с букетом в белом свадебном платье" class="one_one" src="img/one_one/wedding01.jpg">
 					<img alt="девушка с букетом в белом свадебном платье" class="one_one" src="img/one_one/wedding02.jpg">
