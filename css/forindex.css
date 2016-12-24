@@ -86,7 +86,7 @@ li:hover{
 {
     body{
         background:fixed url(../img/studio/studiony2.JPG) center center no-repeat #000;
-	background-size:cover;
+	background-size:100%;
         font-size: 1.8em;
     }
     header{
