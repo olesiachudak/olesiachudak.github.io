@@ -85,7 +85,7 @@ li:hover{
 @media screen and (max-width:768px)
 {
     body{
-        background:fixed url(../img/studio/studiony2.JPG) center center no-repeat #000;
+        background:fixed url(../img/studio/studiony2.JPG) center top no-repeat #000;
 	background-size:100%;
         font-size: 1.8em;
     }
