@@ -6,7 +6,7 @@
 body{
     background:fixed url(../img/kids/oneonestudio5.JPG) center center no-repeat #000;
     background-size: cover;
-    position:relative;
+    position: relative;
     font-family:Comfortaa,Verdana, sans-serif;
 
 }
@@ -15,7 +15,7 @@ header{
     top:0;
     bottom:0;
     position:absolute;
-	height:100%;
+    height:100%;
     background-color:RGBA(0,0,0,.7);
     width:35%;
 }
@@ -90,6 +90,8 @@ li:hover{
         font-size: 1.8em;
     }
     header{
+	position: relative;
+	height: 100%;
         left:0;
         width:100%;
         background: none;
