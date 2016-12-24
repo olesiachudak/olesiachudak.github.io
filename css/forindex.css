@@ -5,7 +5,7 @@
 }
 body{
     background:fixed url(../img/kids/oneonestudio5.JPG) 70% top no-repeat #000;
-	background-size:101.5%;
+    background-size:102.5%;
     position:relative;
     font-family:Comfortaa,Verdana, sans-serif;
 
@@ -108,6 +108,9 @@ li:hover{
         margin:0;
         padding:0;
     }
+    body{
+	    background:fixed url(../img/studio/studiony2.JPG) 70% top no-repeat #000;
+	}
 }
 @media screen and (max-width:480px)
 {
