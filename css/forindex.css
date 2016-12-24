@@ -4,7 +4,7 @@
     margin:0;
 }
 body{
-    background:fixed url(../img/kids/oneonestudio5.JPG) 70% top no-repeat #000;
+    background:fixed url(../img/kids/oneonestudio5.JPG) center center no-repeat #000;
     background-size:cover;
     position:relative;
     font-family:Comfortaa,Verdana, sans-serif;
@@ -82,7 +82,7 @@ li:hover{
         margin:50px auto;
     }
 }
-@media screen and (max-width:674px)
+@media screen and (max-width:768px)
 {
     body{
         background: none;
