@@ -6,9 +6,9 @@
 main{
     padding:0;
     background:url(../img/forcont.jpg) top center no-repeat;
-    background-size:101.5%;
-    -moz-background-size:101.5%;
-    -o-background-size:100%; 
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover; 
     position:relative;
     min-height:auto;
     height:auto;
